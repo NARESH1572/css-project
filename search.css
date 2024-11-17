@@ -1,0 +1,23 @@
+/* 
+p{
+    background-color: aqua;
+    border: 2px solid black;
+
+
+} */
+div{
+    background-color: aqua;
+    /* border: 2px solid black; */
+    padding: 5px 10px;
+    width: 19vw;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    
+
+}
+p{
+
+    background-color: white;
+    padding: 20px 30px 20px;
+}
