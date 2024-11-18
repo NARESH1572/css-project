@@ -1,283 +1,323 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-   
-}
-body{
-    background-color:#DAE4F2;
-    padding:0px 31gitpx;
+
 }
 
-.container{
+body {
+    background-color: #DAE4F2;
+    padding: 0px 30px;
+}
+
+.container {
     /* gap:2000px; */
-    background-color:white ;
-     width: 100%;
+    background-color: white;
+    width: 100%;
     height: 100%;
 
-   
+
 }
-
-
-.container2{
+.matter{
+    padding-left: 100px;
+}
+.container2 {
     position: fixed;
-    background-color:white;
-    width: 96%;
-    
+    background-color: white;
+    width: 96.5%;
 
-    
+
+
 }
-.input-checkbox-toggler{
+
+.input-checkbox-toggler {
     display: none;
 
 }
-.ham-icon{
+
+.ham-icon {
     display: none;
 }
-.header{
+
+.header3 {
     display: flex;
     gap: 30px;
     position: sticky;
+    align-items: center;
 }
 
-.header>img{
-    padding:20px ;
+.header3>img {
+    padding: 20px;
 }
 
-.header>h1{
+.header3>h1 {
     display: flex;
     align-items: center;
     font-weight: 100;
 }
-.header1{
+
+.header1 {
     display: flex;
     justify-content: center;
-    gap:20px ;
-    
+    gap: 20px;
+
 }
 
-.header1>a{
+.header1>a {
     display: block;
     text-decoration: none;
     color: black;
 }
 
-.bar{
+.bar {
     width: 100%;
 
 }
-.bar>img{
-    width:100%;
-    height:50% ;
-    object-fit:cover;
+
+.bar>img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
     margin-top: 150px;
 }
 
-.center>h1{
+.center>h1 {
     display: flex;
     justify-content: center;
-    padding:30px 300px ;
+    /* padding-left: 100px; */
+    text-transform: uppercase;
+    letter-spacing: .1rem;
 }
 
-.center>p{
-    padding: 30px 300px ;
+.center>p {
+    padding: 30px;
+    /* padding-left: 100px; */
     column-gap: 10px;
 }
-.center1{
+
+.center1 {
     display: flex;
-    justify-content: center;
     width: 90vw;
-    padding:0px 100px 0px 10px;
+    /* padding-left: 100px; */
 }
-.center1>img{
-   
+
+.center1>img {
     width: 60%;
     height: 500px;
 
-    
+
 
 }
-.center2{
+
+.center2 {
     display: flex;
     width: 90vw;
-    padding-left: 300px;
-    padding-top:20px;
+    /* padding-left: 100px; */
+    padding-top: 20px;
     flex-direction: column;
-    
-    
 }
 
-.center2>p{
-    padding:30px 240px 20px 0px;
-    
-}
-
-
-.main{
+.main {
     display: flex;
     flex-direction: column;
-    width:90vw ;
-    padding-left: 300px;
-    gap:30px
+    width: 90vw;
+    /* padding-left: 100px; */
+    gap: 30px
 }
-.main>h1{
-  
+
+.main>h1 {
     padding-top: 20px;
 }
-.main>p{
-    display:inline;
-    width:9% ;
+
+.main>p {
+    display: inline;
+    width: 9%;
     border: 1px solid black;
     color: white;
 
 
 }
-.p1{
-  
-    background-color:#4E86C3;
+
+.p1 {
+    /* padding-left: 100px; */
+    background-color: #4E86C3;
     padding: 15px;
     color: aliceblue;
 }
-.p1>a{
+
+.p1>a {
     color: aliceblue;
     text-decoration: none;
 }
-.p1:hover{
-   background-color:  lightblue;
+
+.p1:hover {
+    background-color: lightblue;
 }
 
-.main>img{
+.main>img {
     width: 40vw;
     margin-bottom: 8px;
-    
+
 }
-.mainleft{
+
+.mainleft {
     display: flex;
-    
+
 }
-.p2{
+
+.p2 {
     padding-top: 60px;
-    padding-left: 90px;
+    /* padding-left: 90px; */
     color: gray;
 
 }
-.P7{
+
+.P7 {
     padding-top: 50px;
-    padding-left: 150px;
+    /* padding-left: 150px; */
 }
-.headerleft{
+
+.headerleft {
     padding-top: 30px;
     display: flex;
     gap: 20px;
-    justify-content:center;
-    padding-left: 150px;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* padding-left: 150px; */
 }
-.p3{
-    padding:   20px 40px 20px;
-    background-color:rgb(240,244,250);
+
+.p3 {
+    padding: 20px 40px 20px;
+    background-color: rgb(240, 244, 250);
 
 }
 
-.p3:hover{
-    background-color:aliceblue;
-}
-.p4{
-    padding:   20px 40px 20px;
-    background-color: rgb(240,244,250);
-    
-
-}
-.p4:hover{
+.p3:hover {
     background-color: aliceblue;
 }
-.p5{
 
-    padding:   20px 40px 20px;
-    background-color: rgb(240,244,250);
+.p4 {
+    padding: 20px 40px 20px;
+    background-color: rgb(240, 244, 250);
+
 
 }
-.p5:hover{
+
+.p4:hover {
     background-color: aliceblue;
 }
-.p6{
-    padding:   20px 40px 20px;
-    background-color: rgb(240,244,250);
+
+.p5 {
+
+    padding: 20px 40px 20px;
+    background-color: rgb(240, 244, 250);
 
 }
-.p6:hover{
-    background-color:aliceblue;
+
+.p5:hover {
+    background-color: aliceblue;
 }
-.parent{
+
+.p6 {
+    padding: 20px 40px 20px;
+    background-color: rgb(240, 244, 250);
+
+}
+
+.p6:hover {
+    background-color: aliceblue;
+}
+
+.parent {
     display: flex;
     gap: 30px;
 }
 
-.headerright >p {
+.headerright>p {
     padding: 10px;
 
     display: flex;
-    gap:30px;
+    gap: 30px;
     font-size: 2rem;
-   
+
 }
-p > i{
+
+p>i {
     display: flex;
-    gap:40px;
-    padding:10px;
+    gap: 40px;
+    padding: 10px;
     background-color: aliceblue;
 }
-.p8{
+
+.p8 {
     padding-top: 60px;
     padding-bottom: 20px;
     color: gray;
-    
+
 }
-.p7{
-    color:gray;
+
+.p7 {
+    color: gray;
 }
-.p7 > a{
-    color:darkslategray;
+
+.p7>a {
+    color: darkslategray;
     font-weight: bold;
 }
-.footer{
+
+.footer {
     padding-top: 50px;
-    padding-left: 150px;
+    /* padding-left: 150px; */
 }
-a{
-    color: rgb(139,140,147);
+
+a {
+    color: rgb(139, 140, 147);
     text-decoration: none;
 
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
+
 @media screen and (max-width:400px) {
-    .header1{
+    .matter{
+        padding-left: 0px;
+    }
+    .body{
+        padding: 0px 20px;
+    }
+    .header1 {
         display: none;
     }
+    .input-checkbox-toggler:checked + .header1 {
+        display: block;
+    }
+    .ham-icon {
+        display: block;
+    }
+    .parent{
+        flex-direction: column;
+    }
 
-    .input-checkbox-toggler:checked .header1{
-        display: block;
-    }
-    .ham-icon{
-        display: block;
-    }
-    body{
-        background-color: white;
-    }
-    
 }
 @media screen  and (min-width:401px) and (max-width:768px){
-    body{
-        padding: 20px;
+    .matter{
+        padding-left: 0px;
     }
-        
-    .container{
-    
-        
+    .body{
+        padding: 0px 20px;
     }
+    .header1 {
+        display: none;
+    }
+    .input-checkbox-toggler:checked + .header1 {
+        display: block;
+    }
+    .ham-icon {
+        display: block;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
     
 }
-    
-
-
